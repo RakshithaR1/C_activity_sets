@@ -10,7 +10,7 @@ Complex input_complex()
 {
   Complex c;
   printf("Enter the real and imaginary part of the number: ");
-  scanf("%d %d", &c.real, &c.imaginary);
+  scanf("%f %f", &c.real, &c.imaginary);
   return c;
 }
 Complex add_complex(Complex a, Complex b)
